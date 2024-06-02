@@ -1,0 +1,35 @@
+div {
+    height: 45px;
+    width: 45px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+ 
+.lettre {
+    margin-top: 1px; /* Ajouter une marge supérieure */
+  }
+  .gaucheh {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+  .gaucheb{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .droith{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .droitb{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  } 
